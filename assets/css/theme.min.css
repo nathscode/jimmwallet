@@ -16342,13 +16342,13 @@ a.text-white-60:hover {
   color: #fff;
 }
 .timeline-primary .timeline-item.active::before {
-  background-color: #007bff;
+  background-color: #5c2684;
 }
 .timeline-primary .timeline-item::after {
-  border-color: #8fc5ff;
+  border-color: #5c2684;
 }
 .timeline-primary .timeline-item.active::after {
-  border-color: #007bff;
+  border-color: #5c2684;
 }
 .timeline-secondary .timeline-item::before {
   background-color: #b5b6c5;

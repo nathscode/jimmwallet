@@ -1,3 +1,7 @@
+/*
+#5C2684
+#FFBA13
+*/
 .navbar {
   position: fixed;
   width: 100%;
@@ -11,7 +15,7 @@
   max-width: 200px;
 }
 .text-primary {
-  color: #0edbf4 !important;
+  color: #ffba13 !important;
 }
 a.text-primary:focus,
 a.text-primary:hover {
@@ -177,7 +181,7 @@ a.site-btn-primary,
   font-weight: 500;
   color: #fff;
   line-height: 1.5em;
-  background-color: #0edbf4;
+  background-color: #5c2684;
 }
 a.site-btn-outline,
 .site-btn-outline {
@@ -185,12 +189,12 @@ a.site-btn-outline,
   padding: 0.8em 2.1em;
   font-size: 0.95rem;
   font-weight: 500;
-  border: 1px solid #0edbf4;
-  color: #0edbf4;
+  border: 1px solid #5c2684;
+  color: #5c2684;
   line-height: 1.5em;
 }
 a.site-btn-outline:hover {
-  background-color: #0edbf4;
+  background-color: #5c2684;
   color: #fff;
 }
 .site-button span {
@@ -210,12 +214,12 @@ a.site-btn-outline:hover {
   display: flex;
   cursor: pointer;
   font-weight: 500;
-  color: #0edbf4;
+  color: #5c2684;
   margin-top: 15px;
   transition: color 0.15s ease-in-out;
 }
 .site-button.arrow:hover {
-  color: #0056b3;
+  color: #5c2684;
   -webkit-box-shadow: initial;
   box-shadow: initial;
   -webkit-transform: initial;
@@ -223,7 +227,7 @@ a.site-btn-outline:hover {
   transform: initial;
 }
 .site-button.arrow:hover i {
-  color: #0056b3;
+  color: #5c2684;
   transform: translateX(3px);
 }
 .site-button:hover,
@@ -273,14 +277,15 @@ a.site-button:hover {
   box-shadow: 0 50px 30px -40px rgba(0, 0, 0, 0.1);
 }
 .benefit-description-text {
-  font-size: 1rem;
+  font-size: 1.05rem;
   margin-bottom: 0.5rem;
 }
 .benefit-box .bx {
   font-size: 3.5rem;
   font-weight: 100;
-  color: #0edbf4;
+  color: #ffba13;
 }
+
 .image-wrapper {
   max-width: 100%;
   position: relative;
@@ -293,7 +298,7 @@ a.site-button:hover {
   height: 350px;
 }
 .footer-bottom {
-  background: #301d44;
+  background: #5c2684;
 }
 .footer-bottom p {
   text-align: center;
