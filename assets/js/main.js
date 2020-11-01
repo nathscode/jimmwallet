@@ -67,3 +67,15 @@ $(".crypto-slider").owlCarousel({
     },
   },
 });
+
+
+$(window).on("scroll", function () {
+  if ($(this).scrollTop() > 0) {
+    $(".go-top").addClass("active");
+  } else {
+    $(".go-top").removeClass("active");
+  }
+});
+$(".go-top").on("click", function () {
+  $("html, body").animate({ scrollTop: "0" }, 500);
+});

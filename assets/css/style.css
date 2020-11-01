@@ -1,6 +1,6 @@
 /*
-#5C2684
-#FFBA13
+#8c50ff
+#f9cb07
 */
 .navbar {
   position: fixed;
@@ -15,13 +15,41 @@
   max-width: 200px;
 }
 .text-primary {
-  color: #ffba13 !important;
+  color: #ffd209 !important;
 }
 a.text-primary:focus,
 a.text-primary:hover {
   color: #0056b3 !important;
 }
-
+.bg-primary {
+  background-color: #f8f9fa !important;
+}
+.go-top.active {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.go-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 9999;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.go-top i {
+  background: #ffd209;
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  line-height: 35px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 50px;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
 .words-wrapper {
   display: inline-block;
   position: relative;
@@ -181,7 +209,7 @@ a.site-btn-primary,
   font-weight: 500;
   color: #fff;
   line-height: 1.5em;
-  background-color: #5c2684;
+  background-color: #8c50ff;
 }
 a.site-btn-outline,
 .site-btn-outline {
@@ -189,12 +217,12 @@ a.site-btn-outline,
   padding: 0.8em 2.1em;
   font-size: 0.95rem;
   font-weight: 500;
-  border: 1px solid #5c2684;
-  color: #5c2684;
+  border: 1px solid #8c50ff;
+  color: #8c50ff;
   line-height: 1.5em;
 }
 a.site-btn-outline:hover {
-  background-color: #5c2684;
+  background-color: #8c50ff;
   color: #fff;
 }
 .site-button span {
@@ -214,12 +242,12 @@ a.site-btn-outline:hover {
   display: flex;
   cursor: pointer;
   font-weight: 500;
-  color: #5c2684;
+  color: #8c50ff;
   margin-top: 15px;
   transition: color 0.15s ease-in-out;
 }
 .site-button.arrow:hover {
-  color: #5c2684;
+  color: #8c50ff;
   -webkit-box-shadow: initial;
   box-shadow: initial;
   -webkit-transform: initial;
@@ -227,7 +255,7 @@ a.site-btn-outline:hover {
   transform: initial;
 }
 .site-button.arrow:hover i {
-  color: #5c2684;
+  color: #8c50ff;
   transform: translateX(3px);
 }
 .site-button:hover,
@@ -283,7 +311,7 @@ a.site-button:hover {
 .benefit-box .bx {
   font-size: 3.5rem;
   font-weight: 100;
-  color: #ffba13;
+  color: #ffd209;
 }
 
 .image-wrapper {
@@ -298,13 +326,14 @@ a.site-button:hover {
   height: 350px;
 }
 .footer-bottom {
-  background: #5c2684;
+  background: #fff;
+  box-shadow: 0 6px 31px 10px rgba(0, 0, 0, 0.1);
 }
 .footer-bottom p {
   text-align: center;
   font-size: 15px;
   padding: 20px 0;
-  color: #ffffff;
+  color: #212121;
   margin: 0;
 }
 .display-mobile {
